@@ -1,0 +1,3 @@
+curl -X PUT "localhost:9200/tamil-song-lyrics?pretty" -H "Content-Type: application/json" -d @mapping_file.json 
+
+curl -X POST "localhost:9200/tamil-song-lyrics/_bulk?pretty" -H "Content-Type: application/json" --data-binary @corpus.json 
