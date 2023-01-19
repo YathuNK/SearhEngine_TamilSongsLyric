@@ -1,5 +1,5 @@
 # Search Engine Application for Tamil Song Lyrics
-Search application uses text corpus of metaphors with 100 unique songs.
+Elasticsearch search application with text corpus of metaphors with 100 unique songs. 
 
 ## Example item from the text corpus
 
